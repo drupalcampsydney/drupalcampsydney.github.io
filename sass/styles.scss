@@ -2,25 +2,10 @@
  * Main style sheet
  */
 
+@import "singularitygs";
+@import "modular-scale";
+@import "breakpoint";
 
-// Colors
-$black:                               #222222;
-$white:                               #efefef;
-
-
-
-// Base variables
-$base-font-size:                      18px;
-
-$base-text-color:                     $black;
-$base-background-color:               $white;
-
-
-// Set colors for base elements
-body {
-  color: transparentize($base-text-color, .05%);
-  background: $base-background-color;
-}
 
 // Partials
 @import "partials/*";

@@ -2,7 +2,35 @@
  * Base file
  */
  
-@import "singularitygs";
-@import "modular-scale";
-@import "breakpoint";
+$page-width:                          800px;
+ 
+// Colors
+$black:                               #222222;
+$white:                               #efefef;
 
+// Base variables
+$base-font-size:                      18px;
+
+$base-text-color:                     $black;
+$base-background-color:               $white;
+
+// Breakpoints
+$small-medium:                        600px;
+
+
+* {
+  @include box-sizing('border-box');
+}
+
+body {
+  color: transparentize($base-text-color, .05%);
+  background: $base-background-color;
+  max-width: $page-width;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
