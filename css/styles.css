@@ -1,7 +1,27 @@
 /**
  * Main style sheet
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/styles\.scss}line{font-family:\0000320}}
+body {
+  color: rgba(34, 34, 34, 0.95);
+  background: #efefef;
+}
+
 /**
  * Base file
  */
+/**
+ * Typography
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_typography\.scss}line{font-family:\000035}}
+html, body {
+  font-size: 18px;
+  line-height: 1.4em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_typography\.scss}line{font-family:\0000310}}
+h1 {
+  line-height: 1.2em;
+}
+
 /* No files to import found in partials/*\/* */
