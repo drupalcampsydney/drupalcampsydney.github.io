@@ -3,19 +3,38 @@
  */
 
 .header {
+  position: relative;
   
   .location, .date {
     display: block;
   }
+  
+  @include breakpoint($small-medium) {
+    @include grid-span(2, 1, (2, 1));
+  }
 }
 
 
-.logo {
-  margin: 0 auto;
-  text-align: center;
-  max-width: 70%;
-  
+.logo {  
   @include breakpoint($small-medium) {
-    max-width: 392px;
+    @include grid-span(1, 1, (2, 1));
+    
+    img {
+      max-width: 70%;
+    }
   }
+}
+
+.event-details {
+  margin-top: 40px;
+  @include breakpoint($small-medium) {
+    @include grid-span(1, 2, (2, 1));
+    position: absolute;
+    bottom: 16px;
+    right: 0;
+  }
+}
+
+.date {
+  margin-top: 1em;
 }

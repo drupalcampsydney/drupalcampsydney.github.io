@@ -17,6 +17,7 @@ $link-color:                          $maroon;
 
 // Breakpoints
 $small-medium:                        600px;
+$medium:                              700px;
 
 // Fonts
 $base-font-size:                      18px;
@@ -37,3 +38,7 @@ $muli:                                'Muli', sans-serif;
 
 $body-font:                           $muli;
 $heading-font:                        $montserrat-alternates;
+
+// Grid
+$grids:                               1;
+$gutters:                             0;
