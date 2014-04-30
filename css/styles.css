@@ -26,10 +26,59 @@
 }
 
 /**
+ * Links
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_links\.scss}line{font-family:\000035}}
+.links {
+  padding-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_links\.scss}line{font-family:\000037}}
+.links li {
+  list-style: none;
+  list-style-type: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_links\.scss}line{font-family:\0000313}}
+a:link {
+  text-decoration: none;
+  border-bottom: 1px dotted #8a2812;
+  color: #8a2812;
+  padding-bottom: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_links\.scss}line{font-family:\0000319}}
+a:visited {
+  color: #8a2812;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_links\.scss}line{font-family:\0000323}}
+a:hover,
+a:focus {
+  color: #8a2812;
+  border-bottom: 1px solid #8a2812;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_links\.scss}line{font-family:\0000327}}
+a:active {
+  color: #8a2812;
+}
+
+/* Address `outline` inconsistency between Chrome and other browsers. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_links\.scss}line{font-family:\0000332}}
+a:focus {
+  outline: thin dotted;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_links\.scss}line{font-family:\0000337}}
+a.eventbrite {
+  border-bottom: none;
+}
+
+/**
  * Mixins
  */
 /**
- * Typography
+ * Set/reset
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_normalize\.scss}line{font-family:\000035}}
 html, body {
@@ -60,6 +109,11 @@ p {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_normalize\.scss}line{font-family:\0000327}}
 ul {
   padding-left: 1em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_normalize\.scss}line{font-family:\0000331}}
+hr {
+  margin: 2em 0;
 }
 
 /* No files to import found in partials/*\/* */
