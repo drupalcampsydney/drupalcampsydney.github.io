@@ -15,8 +15,12 @@ h1 {
 h2 {
   text-transform: uppercase;
   font-family: $heading-font;
-  font-size: 3em;
+  font-size: 1.8em;
   line-height: 1em;
-  margin: 1.4em 0 .6em;
-  text-align: center;
+  margin: 1.4em 0 0;
+  color: transparentize($black, .3%);
+}
+
+p {
+  margin-top: .6em;
 }

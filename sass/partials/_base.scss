@@ -21,5 +21,11 @@ $base-font-size:                      18px;
 $pt-serif:                            'PT Serif', serif;
 $pt-sans-narrow:                      'PT Sans Narrow', sans-serif;
 
-$body-font:                           $pt-serif;
-$heading-font:                        $pt-sans-narrow;
+$nixie-one:                           'Nixie One', serif;
+$noto-sans:                           'Noto Sans', sans-serif;
+
+//$body-font:                           $pt-serif;
+//$heading-font:                        $pt-sans-narrow;
+
+$body-font:                           $noto-sans;
+$heading-font:                        $nixie-one;

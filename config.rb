@@ -8,7 +8,6 @@
 require 'sass'
 require 'compass'
 require 'singularitygs'
-require 'modular-scale'
 require 'breakpoint'
 require 'sass-globbing'
 
