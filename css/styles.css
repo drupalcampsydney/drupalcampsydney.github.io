@@ -10,8 +10,9 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_header\.scss}line{font-family:\000035}}
 .header {
   position: relative;
+  margin-top: 30px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_header\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_header\.scss}line{font-family:\000039}}
 .header .location, .header .date {
   display: block;
 }
@@ -27,7 +28,7 @@
 }
 
 @media (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_header\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_header\.scss}line{font-family:\0000319}}
   .logo {
     width: 66.66667%;
     float: left;
@@ -35,18 +36,20 @@
     margin-left: 0%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_header\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_header\.scss}line{font-family:\0000323}}
   .logo img {
     max-width: 70%;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_header\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_header\.scss}line{font-family:\0000329}}
 .event-details {
   margin-top: 40px;
+  color: #8a2812;
+  font-weight: bold;
 }
 @media (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_header\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_header\.scss}line{font-family:\0000329}}
   .event-details {
     width: 33.33333%;
     float: right;
@@ -59,7 +62,7 @@
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_header\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_header\.scss}line{font-family:\0000342}}
 .date {
   margin-top: 1em;
 }
@@ -159,6 +162,30 @@ hr {
  * Page elements
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_page\.scss}line{font-family:\000035}}
+body {
+  color: rgba(34, 34, 34, 0.95);
+  background: #f1e9e5;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_page\.scss}line{font-family:\0000313}}
+.top-header {
+  width: 100%;
+  background: #222222;
+  padding: 10px;
+  display: table;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_page\.scss}line{font-family:\0000319}}
+.top-header img {
+  display: inline-block;
+  float: right;
+  height: 33px;
+  width: auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_page\.scss}line{font-family:\0000327}}
 .banner {
   clear: both;
   padding-top: 40px;
@@ -182,15 +209,6 @@ hr {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/styles\.scss}line{font-family:\0000322}}
-body {
-  color: rgba(34, 34, 34, 0.95);
-  background: #f1e9e5;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/styles\.scss}line{font-family:\0000330}}
 img {
   max-width: 100%;
   height: auto;

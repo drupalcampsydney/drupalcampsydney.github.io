@@ -19,14 +19,6 @@
   @include element-invisible;
 }
 
-body {
-  color: transparentize($base-text-color, .05%);
-  background: $base-background-color;
-  max-width: $page-width;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 img {
   max-width: 100%;
   height: auto;

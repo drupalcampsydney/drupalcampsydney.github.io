@@ -4,6 +4,7 @@
 
 .header {
   position: relative;
+  margin-top: 30px;
   
   .location, .date {
     display: block;
@@ -27,6 +28,9 @@
 
 .event-details {
   margin-top: 40px;
+  color: $maroon;
+  font-weight: bold;
+  
   @include breakpoint($small-medium) {
     @include grid-span(1, 2, (2, 1));
     position: absolute;
