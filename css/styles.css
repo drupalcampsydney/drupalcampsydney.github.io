@@ -2,6 +2,9 @@
  * Main style sheet
  */
 /**
+ * Mixins
+ */
+/**
  * Base file
  */
 /**
@@ -116,9 +119,31 @@ a.eventbrite {
   border-bottom: none;
 }
 
-/**
- * Mixins
- */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_links\.scss}line{font-family:\0000342}}
+.this-little-duck a {
+  border-bottom: none;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 203px;
+  height: 167px;
+  display: inline-block;
+  background: transparent url("../images/thislittleduck.png") 0 0 no-repeat scroll;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_links\.scss}line{font-family:\0000348}}
+.morpht a {
+  border-bottom: none;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 203px;
+  height: 60px;
+  display: inline-block;
+  background: transparent url("../images/morpht.png") 0 0 no-repeat scroll;
+  margin-top: 40px;
+}
+
 /**
  * Set/reset
  */
@@ -192,14 +217,14 @@ body {
 }
 
 /* No files to import found in partials/*\/* */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/styles\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/styles\.scss}line{font-family:\0000315}}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/styles\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/styles\.scss}line{font-family:\0000319}}
 .element-invisible {
   position: absolute !important;
   height: 1px;
@@ -208,7 +233,7 @@ body {
   clip: rect(1px, 1px, 1px, 1px);
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/styles\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/styles\.scss}line{font-family:\0000323}}
 img {
   max-width: 100%;
   height: auto;
