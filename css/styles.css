@@ -28,13 +28,24 @@
  */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_typography\.scss}line{font-family:\000035}}
 html, body {
+  font-family: "PT Serif", serif;
   font-size: 18px;
   line-height: 1.4em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_typography\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_typography\.scss}line{font-family:\0000311}}
 h1 {
   line-height: 1.2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_typography\.scss}line{font-family:\0000315}}
+h2 {
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 3em;
+  line-height: 1em;
+  margin: 1.4em 0 .6em;
+  text-align: center;
 }
 
 /* No files to import found in partials/*\/* */
@@ -67,11 +78,4 @@ body {
 img {
   max-width: 100%;
   height: auto;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/styles\.scss}line{font-family:\0000336}}
-h2 {
-  font-size: 2.2em;
-  line-height: 1em;
-  margin: 1.4em 0 .6em;
 }

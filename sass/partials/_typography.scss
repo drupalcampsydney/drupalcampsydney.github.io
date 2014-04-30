@@ -3,10 +3,20 @@
  */
 
 html, body {
+  font-family: $body-font;
   font-size: $base-font-size;
   line-height: 1.4em;
 }
 
 h1 {
   line-height: 1.2em;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: $heading-font;
+  font-size: 3em;
+  line-height: 1em;
+  margin: 1.4em 0 .6em;
+  text-align: center;
 }

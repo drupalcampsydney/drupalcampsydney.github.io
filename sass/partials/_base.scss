@@ -9,13 +9,17 @@ $black:                               #222222;
 $white:                               #efefef;
 $beige:                               #f1e9e5;
 
-// Base variables
-$base-font-size:                      18px;
-
-
 // Colors
 $base-text-color:                     $black;
 $base-background-color:               $beige;
 
 // Breakpoints
 $small-medium:                        600px;
+
+// Fonts
+$base-font-size:                      18px;
+$pt-serif:                            'PT Serif', serif;
+$pt-sans-narrow:                      'PT Sans Narrow', sans-serif;
+
+$body-font:                           $pt-serif;
+$heading-font:                        $pt-sans-narrow;
