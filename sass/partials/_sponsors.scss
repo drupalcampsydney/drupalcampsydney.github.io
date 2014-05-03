@@ -1,0 +1,35 @@
+/**
+ * Sponsors
+ */
+
+.sponsor {
+  display: block;
+  margin: 0 0 30px;
+  
+  @include breakpoint($medium) {
+    display: table-cell;
+    height: 167px;
+    vertical-align: middle;
+    margin: 0 20px;
+  }
+}
+
+.this-little-duck a {
+  border-bottom: none;
+  @include hide-text(203px, 167px);
+  background: transparent url('../images/thislittleduck.png') 0 0 no-repeat scroll;
+  margin: 0 40px 0 0;
+}
+
+.morpht a {
+  border-bottom: none;
+  @include hide-text(203px, 60px);
+  background: transparent url('../images/morpht.png') 0 0 no-repeat scroll;
+  margin: 0 40px 0 0;
+}
+
+.cf a {
+  border-bottom: none;
+  @include hide-text(203px, 39px);
+  background: transparent url('../images/crossfunctional.png') 0 0 no-repeat scroll;
+}

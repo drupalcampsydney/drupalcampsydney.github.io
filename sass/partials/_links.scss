@@ -37,17 +37,3 @@ a:focus {
 a.eventbrite {
   border-bottom: none;
 }
-
-// Sponsors
-.this-little-duck a {
-  border-bottom: none;
-  @include hide-text(203px, 167px);
-  background: transparent url('../images/thislittleduck.png') 0 0 no-repeat scroll;
-}
-
-.morpht a {
-  border-bottom: none;
-  @include hide-text(203px, 60px);
-  background: transparent url('../images/morpht.png') 0 0 no-repeat scroll;
-  margin-top: 40px;
-}

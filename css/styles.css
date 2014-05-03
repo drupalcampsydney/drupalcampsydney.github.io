@@ -119,31 +119,6 @@ a.eventbrite {
   border-bottom: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_links\.scss}line{font-family:\0000342}}
-.this-little-duck a {
-  border-bottom: none;
-  text-indent: -9999px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 203px;
-  height: 167px;
-  display: inline-block;
-  background: transparent url("../images/thislittleduck.png") 0 0 no-repeat scroll;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_links\.scss}line{font-family:\0000348}}
-.morpht a {
-  border-bottom: none;
-  text-indent: -9999px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 203px;
-  height: 60px;
-  display: inline-block;
-  background: transparent url("../images/morpht.png") 0 0 no-repeat scroll;
-  margin-top: 40px;
-}
-
 /**
  * Set/reset
  */
@@ -199,6 +174,62 @@ body {
 .banner {
   clear: both;
   padding-top: 40px;
+}
+
+/**
+ * Sponsors
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\000035}}
+.sponsor {
+  display: block;
+  margin: 0 0 30px;
+}
+@media (min-width: 740px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\000035}}
+  .sponsor {
+    display: table-cell;
+    height: 167px;
+    vertical-align: middle;
+    margin: 0 20px;
+  }
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\0000317}}
+.this-little-duck a {
+  border-bottom: none;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 203px;
+  height: 167px;
+  display: inline-block;
+  background: transparent url("../images/thislittleduck.png") 0 0 no-repeat scroll;
+  margin: 0 40px 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\0000324}}
+.morpht a {
+  border-bottom: none;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 203px;
+  height: 60px;
+  display: inline-block;
+  background: transparent url("../images/morpht.png") 0 0 no-repeat scroll;
+  margin: 0 40px 0 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\0000331}}
+.cf a {
+  border-bottom: none;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 203px;
+  height: 39px;
+  display: inline-block;
+  background: transparent url("../images/crossfunctional.png") 0 0 no-repeat scroll;
 }
 
 /* No files to import found in partials/*\/* */
