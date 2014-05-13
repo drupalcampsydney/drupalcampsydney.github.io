@@ -6,19 +6,48 @@
   display: block;
   margin: 0 0 30px;
   
+  a {
+    margin: 0 50px 0 0;    
+  }
+  
   @include breakpoint($medium) {
     display: table-cell;
     height: 167px;
     vertical-align: middle;
     margin: 0 20px;
   }
+  
+  &.last a { margin: 0; }
 }
 
 .this-little-duck a {
   border-bottom: none;
   @include hide-text(203px, 167px);
   background: transparent url('../images/thislittleduck.png') 0 0 no-repeat scroll;
-  margin: 0 40px 0 0;
+}
+
+.cf a {
+  border-bottom: none;
+  @include hide-text(203px, 39px);
+  background: transparent url('../images/crossfunctional.png') 0 0 no-repeat scroll;
+}
+
+.holly a {
+  border-bottom: none;
+  @include hide-text(203px, 242px);
+  background: transparent url('../images/holly.png') 0 0 no-repeat scroll;
+}
+
+.twinkle-dental a {
+  border-bottom: none;
+  @include hide-text(203px, 77px);
+  background: transparent url('../images/twinkle-dental.png') 0 0 no-repeat scroll;
+}
+
+.orange-web a {
+  border-bottom: none;
+  @include hide-text(203px, 54px);
+  background: transparent url('../images/orange-web.png') 0 0 no-repeat scroll;
 }
 
 .morpht a {
@@ -28,8 +57,4 @@
   margin: 0 40px 0 0;
 }
 
-.cf a {
-  border-bottom: none;
-  @include hide-text(203px, 39px);
-  background: transparent url('../images/crossfunctional.png') 0 0 no-repeat scroll;
-}
+

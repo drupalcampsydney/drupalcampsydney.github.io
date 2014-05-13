@@ -184,6 +184,10 @@ body {
   display: block;
   margin: 0 0 30px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\000039}}
+.sponsor a {
+  margin: 0 50px 0 0;
+}
 @media (min-width: 740px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\000035}}
   .sponsor {
@@ -193,8 +197,12 @@ body {
     margin: 0 20px;
   }
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\0000320}}
+.sponsor.last a {
+  margin: 0;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\0000323}}
 .this-little-duck a {
   border-bottom: none;
   text-indent: -9999px;
@@ -204,10 +212,57 @@ body {
   height: 167px;
   display: inline-block;
   background: transparent url("../images/thislittleduck.png") 0 0 no-repeat scroll;
-  margin: 0 40px 0 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\0000329}}
+.cf a {
+  border-bottom: none;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 203px;
+  height: 39px;
+  display: inline-block;
+  background: transparent url("../images/crossfunctional.png") 0 0 no-repeat scroll;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\0000335}}
+.holly a {
+  border-bottom: none;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 203px;
+  height: 242px;
+  display: inline-block;
+  background: transparent url("../images/holly.png") 0 0 no-repeat scroll;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\0000341}}
+.twinkle-dental a {
+  border-bottom: none;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 203px;
+  height: 77px;
+  display: inline-block;
+  background: transparent url("../images/twinkle-dental.png") 0 0 no-repeat scroll;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\0000347}}
+.orange-web a {
+  border-bottom: none;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 203px;
+  height: 54px;
+  display: inline-block;
+  background: transparent url("../images/orange-web.png") 0 0 no-repeat scroll;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\0000353}}
 .morpht a {
   border-bottom: none;
   text-indent: -9999px;
@@ -218,18 +273,6 @@ body {
   display: inline-block;
   background: transparent url("../images/morpht.png") 0 0 no-repeat scroll;
   margin: 0 40px 0 0;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_sponsors\.scss}line{font-family:\0000331}}
-.cf a {
-  border-bottom: none;
-  text-indent: -9999px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 203px;
-  height: 39px;
-  display: inline-block;
-  background: transparent url("../images/crossfunctional.png") 0 0 no-repeat scroll;
 }
 
 /* No files to import found in partials/*\/* */
