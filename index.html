@@ -9,6 +9,22 @@
     <!-- <link href='http://fonts.googleapis.com/css?family=Nixie+One|Noto+Sans' rel='stylesheet' type='text/css'> -->
     <link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates|Muli' rel='stylesheet' type='text/css'>
     <link type="text/css" rel="stylesheet" href="css/styles.css"></limk>
+    <script type="text/javascript">
+      // Check if a new cache is available on page load.
+      // http://stackoverflow.com/a/13106972
+      window.addEventListener('load', function(e) {
+        window.applicationCache.addEventListener('updateready', function(e) {
+          if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+            window.applicationCache.swapCache();
+            if (confirm('A new version of this site is available. Load it?')) {
+              window.location.reload();
+            }
+          } else {
+            // Manifest didn't changed. Nothing new to server.
+          }
+        }, false);
+      }, false);
+    </script>
   </head>
   <body>
 
