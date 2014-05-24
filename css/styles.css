@@ -176,6 +176,27 @@ body {
   padding-top: 40px;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_page\.scss}line{font-family:\0000318}}
+h3 {
+  text-transform: uppercase;
+  margin-top: 2em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_page\.scss}line{font-family:\0000323}}
+h4 {
+  margin-bottom: .6em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_page\.scss}line{font-family:\0000327}}
+.author {
+  margin-top: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/colinwatson\/sites\/drupalcampsydney\.github\.io\/sass\/partials\/_page\.scss}line{font-family:\0000331}}
+.description {
+  margin-bottom: .15em;
+}
+
 /**
  * Sponsors
  */
