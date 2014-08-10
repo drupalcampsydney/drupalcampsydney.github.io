@@ -21,14 +21,20 @@
     @include grid-span(1, 1, (2, 1));
     
     img {
-      max-width: 70%;
+      max-width: 50%;
     }
   }
 }
 
+
+h1 {
+  color: $blue;
+  @include breakpoint($medium) {float:right;}
+}
+
 .event-details {
   margin-top: 40px;
-  color: $maroon;
+  color: $yellow;
   font-weight: bold;
   
   @include breakpoint($small-medium) {
