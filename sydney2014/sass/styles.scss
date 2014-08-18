@@ -1,0 +1,26 @@
+/**
+ * Main style sheet
+ */
+
+@import "singularitygs";
+@import "breakpoint";
+
+@import "mixins";
+
+// Partials
+@import "partials/*";
+@import "partials/*/*";
+
+
+* {
+  @include box-sizing('border-box');
+}
+
+.element-invisible {
+  @include element-invisible;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

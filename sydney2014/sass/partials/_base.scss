@@ -1,0 +1,41 @@
+/**
+ * Base file
+ */
+ 
+$page-width:                          800px;
+ 
+// Colors
+$black:                               #222222;
+$white:                               #ffffff;
+$beige:                               #f1e9e5;
+$maroon:                              #8a2812;
+
+$blue:                                #1f6eae;
+$yellow:                              #f1c625;
+
+// Colors
+$base-text-color:                     $black;
+$base-background-color:               $white;
+$link-color:                          darken($yellow, 10%);
+
+// Breakpoints
+$small-medium:                        600px;
+$medium:                              740px;
+
+// Fonts
+$base-font-size:                      18px;
+$pt-serif:                            'Arial', serif;
+$pt-sans-narrow:                      'Arial', sans-serif;
+
+$nixie-one:                           'Nixie One', serif;
+$noto-sans:                           'Noto Sans', sans-serif;
+
+$montserrat-alternates:               'Montserrat Alternates', sans-serif;
+$muli:                                'Muli', sans-serif;
+
+$body-font:                           $muli;
+$heading-font:                        $montserrat-alternates;
+
+// Grid
+$grids:                               1;
+$gutters:                             0;
