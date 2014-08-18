@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>DrupalCamp Australia</title>
+    <meta name="description" content="Drupal Camps in Australia.">
+    <link type="text/css" rel="stylesheet" href="css/styles.css"></limk>
+    <script type="text/javascript">
+      // Check if a new cache is available on page load.
+      // http://stackoverflow.com/a/13106972
+      window.addEventListener('load', function(e) {
+        window.applicationCache.addEventListener('updateready', function(e) {
+          if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+            window.applicationCache.swapCache();
+            if (confirm('A new version of this site is available. Load it?')) {
+              window.location.reload();
+            }
+          } else {
+            // Manifest didn't changed. Nothing new to server.
+          }
+        }, false);
+      }, false);
+    </script>
+  </head>
+  <body>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-49983852-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<div class="header">
+  <div class="logo">
+    <img src="images/drupal-camps-australia.png" alt="Drupal Camps Australia" />
+  </div>
+
+  <h1 class="element-invisible">Drupal Camps Australia</h1>
+</div>
+
+<h2><a href="sydney2014/">Drupal Camp Sydney 2014</a></h2>
+<p>Fishburners, Ultimo, NSW<br />Saturday 1st to Sunday 2nd November 2014</p>
+
+<h2><a href="katoomba2014/">Drupal Camp Katoomba 2014</a></h2>
+<p>Katoomba, Blue Mountains, NSW<br />Saturday 28th to Sunday 29th June 2014</p>
+
+
+  </body>
+</html>
