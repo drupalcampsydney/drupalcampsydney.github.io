@@ -26,29 +26,25 @@
   background: transparent url('../images/thislittleduck.png') 0 0 no-repeat scroll;
 }
 
-.cf a {
+.aquia a {
   border-bottom: none;
-  @include hide-text(203px, 39px);
-  background: transparent url('../images/crossfunctional.png') 0 0 no-repeat scroll;
+  @include hide-text(283px, 58px);
+  background: transparent url('../images/acquia.jpg') 0 0 no-repeat scroll;
 }
 
-.holly a {
+.pnx a {
   border-bottom: none;
-  @include hide-text(203px, 242px);
-  background: transparent url('../images/holly.png') 0 0 no-repeat scroll;
+  @include hide-text(283px, 29px);
+  background: transparent url('../images/pnx.png') 0 0 no-repeat scroll;
 }
 
-.twinkle-dental a {
+.catalyst a {
   border-bottom: none;
-  @include hide-text(203px, 77px);
-  background: transparent url('../images/twinkle-dental.png') 0 0 no-repeat scroll;
+  @include hide-text(283px, 89px);
+  background: transparent url('../images/catalyst.jpg') 0 0 no-repeat scroll;
+  @include breakpoint($medium) {margin-left: 70px;}
 }
 
-.orange-web a {
-  border-bottom: none;
-  @include hide-text(203px, 54px);
-  background: transparent url('../images/orange-web.png') 0 0 no-repeat scroll;
-}
 
 .morpht a {
   border-bottom: none;
