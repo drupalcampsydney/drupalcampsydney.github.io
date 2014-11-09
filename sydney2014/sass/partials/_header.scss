@@ -19,10 +19,7 @@
 .logo {  
   @include breakpoint($small-medium) {
     @include grid-span(1, 1, (2, 1));
-    
-    img {
-      max-width: 50%;
-    }
+    img {max-width: 50%;}
   }
 }
 
