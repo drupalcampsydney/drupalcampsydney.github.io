@@ -39,31 +39,31 @@
     margin-left: 0%;
     clear: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/magda\/dev\/drupalcampsydney\.github\.io\/sydney2014\/sass\/partials\/_header\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/magda\/dev\/drupalcampsydney\.github\.io\/sydney2014\/sass\/partials\/_header\.scss}line{font-family:\0000322}}
   .logo img {
     max-width: 50%;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/magda\/dev\/drupalcampsydney\.github\.io\/sydney2014\/sass\/partials\/_header\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/magda\/dev\/drupalcampsydney\.github\.io\/sydney2014\/sass\/partials\/_header\.scss}line{font-family:\0000327}}
 h1 {
   color: #1f6eae;
 }
 @media (min-width: 740px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/magda\/dev\/drupalcampsydney\.github\.io\/sydney2014\/sass\/partials\/_header\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/magda\/dev\/drupalcampsydney\.github\.io\/sydney2014\/sass\/partials\/_header\.scss}line{font-family:\0000327}}
   h1 {
     float: right;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/magda\/dev\/drupalcampsydney\.github\.io\/sydney2014\/sass\/partials\/_header\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/magda\/dev\/drupalcampsydney\.github\.io\/sydney2014\/sass\/partials\/_header\.scss}line{font-family:\0000332}}
 .event-details {
   margin-top: 40px;
   color: #f1c625;
   font-weight: bold;
 }
 @media (min-width: 600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/magda\/dev\/drupalcampsydney\.github\.io\/sydney2014\/sass\/partials\/_header\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/magda\/dev\/drupalcampsydney\.github\.io\/sydney2014\/sass\/partials\/_header\.scss}line{font-family:\0000332}}
   .event-details {
     width: 33.33333%;
     float: right;
@@ -76,7 +76,7 @@ h1 {
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/magda\/dev\/drupalcampsydney\.github\.io\/sydney2014\/sass\/partials\/_header\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/magda\/dev\/drupalcampsydney\.github\.io\/sydney2014\/sass\/partials\/_header\.scss}line{font-family:\0000345}}
 .date {
   margin-top: 1em;
 }
@@ -206,6 +206,11 @@ h4 {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/magda\/dev\/drupalcampsydney\.github\.io\/sydney2014\/sass\/partials\/_page\.scss}line{font-family:\0000331}}
 .description {
   margin-bottom: .15em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/magda\/dev\/drupalcampsydney\.github\.io\/sydney2014\/sass\/partials\/_page\.scss}line{font-family:\0000335}}
+.img__group-photo {
+  padding-top: 1em;
 }
 
 /**
